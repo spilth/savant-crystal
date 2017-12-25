@@ -1,0 +1,17 @@
+name: savant
+version: 0.1.0
+
+authors:
+  - Brian Kelly <polymonic@gmail.com>
+
+dependencies:
+  admiral:
+    github: jwaldrip/admiral.cr
+
+targets:
+  savant:
+    main: src/savant.cr
+
+crystal: 0.23.1
+
+license: MIT
